@@ -1,5 +1,6 @@
 package com.example.photoupload;
 
+//importing all the classes required
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,12 +25,17 @@ import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
 import java.util.UUID;
+
+
 public class Upload extends AppCompatActivity {
 
+//    Declaring the variables
     private Button choose;
     private Button upload;
     private ImageView imageView;
     private Uri filePath;
+
+//    Declaring the fields needed
     FirebaseStorage storage;
     StorageReference storageReference;
 
@@ -39,13 +45,20 @@ public class Upload extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upload);
+
+//        Getting an instance of Firebase
         storage = FirebaseStorage.getInstance();
+
+
+//        Getting a storage reference to the uploaded file
         storageReference = storage.getReference();
 
+//        Initialising the buttons and the imageView
         choose = (Button) findViewById(R.id.btnChoose);
         upload = (Button) findViewById(R.id.btnUpload);
         imageView = (ImageView) findViewById(R.id.imgView);
 
+//        Setting the onClickListener for the buttons which specifies what is to be done when the button is clicked
         choose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,12 +75,21 @@ public class Upload extends AppCompatActivity {
 
     }
 
+//    Method to choose image from gallery
     private void chooseImage() {
+
+//        Creating a new intent of type image
         Intent intent = new Intent();
         intent.setType("image/*");
+
+//        setting the action to get the content
         intent.setAction(Intent.ACTION_GET_CONTENT);
+
+//        Receiving the result
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE_REQUEST);
     }
+
+//    Method to display the image
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -85,6 +107,8 @@ public class Upload extends AppCompatActivity {
             }
         }
     }
+
+//    Method to upload the image
     private void uploadImage() {
 
         if(filePath != null)

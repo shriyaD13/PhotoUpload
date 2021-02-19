@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--using linear layout for arranging all the elements-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
@@ -7,6 +9,7 @@
     android:orientation="vertical"
     android:weightSum="6">
 
+<!--    Adding a text view to display the sign in text-->
     <TextView
         android:id="@+id/signinText"
         android:layout_width="match_parent"
@@ -21,6 +24,7 @@
         android:textAlignment="center"
         android:textSize="35sp" />
 
+<!--    Adding  a text field to input the email address from the user -->
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="311dp"
@@ -32,6 +36,7 @@
         android:singleLine="true"
         android:inputType="textEmailAddress" />
 
+<!--    Adding  a text field to input the password from the user-->
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="310dp"
@@ -43,6 +48,7 @@
         android:maxLines="1"
         android:singleLine="true" />
 
+<!--    Adding the signIn button-->
     <Button
         android:id="@+id/btnsignIn"
         android:layout_width="123dp"
@@ -50,6 +56,7 @@
         android:layout_gravity="center"
         android:text="SignIn" />
 
+<!--    Adding the progress bar-->
     <ProgressBar
         android:id="@+id/progressBar2"
         style="?android:attr/progressBarStyle"

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--using linear layout for arranging the elements-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
@@ -8,6 +10,7 @@
     android:weightSum="5"
     >
 
+<!--    Adding a text view for the sign up heading-->
     <TextView
         android:id="@+id/signupText"
         android:layout_width="match_parent"
@@ -23,6 +26,7 @@
         android:textAlignment="center"
         android:textSize="35sp" />
 
+<!--    Adding a text field to input email address from user-->
     <EditText
         android:id="@+id/editTextEmailAddress"
         android:layout_width="311dp"
@@ -34,6 +38,7 @@
         android:singleLine="true"
         android:inputType="textEmailAddress" />
 
+<!--    Adding  a text field to input password from the user-->
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="310dp"
@@ -46,7 +51,7 @@
         android:singleLine="true" />
 
 
-
+<!--Adding the signup button-->
     <Button
         android:id="@+id/btnsignup"
         android:layout_width="123dp"
@@ -54,6 +59,7 @@
         android:layout_gravity="center"
         android:text="SignUp" />
 
+<!--    Adding the progress bar-->
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
