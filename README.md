@@ -33,5 +33,5 @@ Project is created with:
     <br> <img src = "https://user-images.githubusercontent.com/58609212/108520076-44fbc400-72f0-11eb-8137-6c53ec7a8e33.png" width="250" height="400" />
     * <b>Upload</b>
     <br> Upload activity allows the user to choose an image from the gallery and upload to the firebase storage
-    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520463-b5a2e080-72f0-11eb-9f9f-7f95ec205730.png" width = "250" height ="400" /> 
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520463-b5a2e080-72f0-11eb-9f9f-7f95ec205730.png" width = "250" height ="400" /> <img src = "https://user-images.githubusercontent.com/58609212/108545615-06750200-730e-11eb-8861-6d806131c22d.png" width = "250" height ="400" /> <img src= "https://user-images.githubusercontent.com/58609212/108545711-260c2a80-730e-11eb-8a3d-c97f704028d9.png" width = "250" height ="400" />
     
