@@ -24,6 +24,7 @@ Project is created with:
 * 4 Activities including the main were used
     * <b>Main</b>
     <br> Main activity gives the user the option to either Login or register which then takes them to SignIn page or SignUp page respectively
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108518920-22b57680-72ef-11eb-991a-f55ad43f90bb.png" width="200" height = "400" />
     * <b>SignUp</b>
     <br> SignUp Activity inputs user's email address and password and on successful registration takes them to upload page.
     * <b>SignIn</b>
