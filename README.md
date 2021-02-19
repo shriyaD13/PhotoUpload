@@ -32,6 +32,6 @@ Project is created with:
     <br> SignIn Activity inputs user's email address and password and on succeful login takes them to upload page
     <br> <img src = "https://user-images.githubusercontent.com/58609212/108520076-44fbc400-72f0-11eb-8137-6c53ec7a8e33.png" width="250" height="400" />
     * <b>Upload</b>
-    <br> Upload activity allows the user top choose an image from the gallery and upload to the firebase storage
+    <br> Upload activity allows the user to choose an image from the gallery and upload to the firebase storage
     <br> <img src = "https://user-images.githubusercontent.com/58609212/108520463-b5a2e080-72f0-11eb-9f9f-7f95ec205730.png" width = "250" height ="400" /> <img src = "https://user-images.githubusercontent.com/58609212/108542773-2acedf80-730a-11eb-9965-cd75f44ab2d3.png" width ="250" height ="400" /> <img src= "https://user-images.githubusercontent.com/58609212/108543056-8e590d00-730a-11eb-9a84-2d9b166d8b82.png" width = "250" height ="400" />
     
