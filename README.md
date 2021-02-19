@@ -24,14 +24,14 @@ Project is created with:
 * 4 Activities including the main were used
     * <b>Main</b>
     <br> Main activity gives the user the option to either Login or register which then takes them to SignIn page or SignUp page respectively
-    <br> <img src = "https://user-images.githubusercontent.com/58609212/108518920-22b57680-72ef-11eb-991a-f55ad43f90bb.png" width="200" height = "400" />
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108518920-22b57680-72ef-11eb-991a-f55ad43f90bb.png" width="250" height = "400" />
     * <b>SignUp</b>
     <br> SignUp Activity inputs user's email address and password and on successful registration takes them to upload page.
-    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520348-9441f480-72f0-11eb-87ba-96b5ddd68d2a.png" width = "200" height = "400" />
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520348-9441f480-72f0-11eb-87ba-96b5ddd68d2a.png" width = "250" height = "400" />
     * <b>SignIn</b>
     <br> SignIn Activity inputs user's email address and password and on succeful login takes them to upload page
-    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520076-44fbc400-72f0-11eb-8137-6c53ec7a8e33.png" width="200" height="400" />
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520076-44fbc400-72f0-11eb-8137-6c53ec7a8e33.png" width="250" height="400" />
     * <b>Upload</b>
     <br> Upload activity allows the user top choose an image from the gallery and upload to the firebase storage
-    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520463-b5a2e080-72f0-11eb-9f9f-7f95ec205730.png" width = "200" height ="400" />
+    <br> <img src = "https://user-images.githubusercontent.com/58609212/108520463-b5a2e080-72f0-11eb-9f9f-7f95ec205730.png" width = "250" height ="400" /> <img src = "https://user-images.githubusercontent.com/58609212/108542773-2acedf80-730a-11eb-9965-cd75f44ab2d3.png" width ="250" height ="400" /> <img src= "https://user-images.githubusercontent.com/58609212/108543056-8e590d00-730a-11eb-9a84-2d9b166d8b82.png" width = "250" height ="400" />
     
